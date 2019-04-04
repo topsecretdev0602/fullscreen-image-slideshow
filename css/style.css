@@ -50,11 +50,13 @@ body {
     opacity: 1;
     transform: translateX(600px);
     transition: all 0.7s ease-in-out 0.2s;
+    z-index: 1;
 }
 
 .slide.current .content a {
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .buttons button#prev {
@@ -112,13 +114,20 @@ body {
 }
 
 .slide:nth-child(3) {
-    background: url('../img/datascience.jpg');
+    background: url('../img/data-collection.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .slide:nth-child(4) {
+    background: url('../img/data-visualization.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide:nth-child(5) {
     background: url('../img/reader-react.png');
     background-repeat: no-repeat;
     background-position: center;
