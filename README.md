@@ -1,2 +1,3 @@
-# slider-based-portfolio
-Portfolio site that showcases projects using full screen image transitions 
+# fullscreen-image-slodeshow
+
+Fullscreen image slideshow in HTML, CSS and Vanilla JS
